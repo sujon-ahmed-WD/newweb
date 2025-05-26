@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.box{
+    border: 2px solid tomato;
+    padding: 20px ;
+    margin: 20px 10px;
+    text-align: center;
+    /* position: fixed; */
+
+}
+button{
+    background-color: yellow;
+    border:hidden;
+}
+.size{
+    color:red;
+    text-align: center;
+    margin: auto;
+    font-family: "Roboto",sans-serif;
+    /* padding: 20px; */
+    font-weight: 500;
+
+
+}
+
+.box_all{
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+
+}
+.box1{
+    border:2px solid black;
+    background: #38cb0c;
+    position: relative;
+    
+
+}
+.box2{
+    border:2px solid rgb(141, 8, 8);
+    background: yellow;
+
+}
+.box3{
+    border:2px solid rgb(136, 4, 4);
+    background: yellowgreen;
+
+}
+.green{
+    height: 50px;
+    width: 50px;
+    background: red;
+    border:1px solid red;
+    border-radius: 100%;
+    position: absolute;
+    left:50px;
+    top:50px;
+
+}
+.div1{
+    height: 300px;
+    width: 200px;
+    border:1px solid black;
+
+}
+.div2{
+    height: 300px;
+    width: 200px;
+    border:1px solid green;
+
+}
+.div3{
+    height: 300px;
+    width: 200px;
+    border:1px solid hwb(147 7% 21%);
+
+}
+.div4{
+    height: 300px;
+    width: 200px;
+    border:1px solid #008000;
+
+}
+.prant_div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.banner{
+    
+    width: 600px;
+    height:300px;
+    color: white;
+    border: 1px solid red;
+
+    margin: auto;
+    background-image:  url(./image/Screenshot_1.png),linear-gradient(45deg,red,blue);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
